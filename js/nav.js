@@ -1,8 +1,18 @@
 /**
  * Helix Nav
  *
- * A no-touch client-side navigation function to inject
+ * A low-touch client-side navigation function to inject
  * /nav.html content (if present) into a vanilla Helix Page.
+ *
+ * How to use
+ *
+ * 1. Add a "nav" doc to the root of your content folder
+ * 2. Add this script to your page.
+ *
+ * Principles of this file
+ *
+ * 1. Support any domain schemes
+ * 2. Functional separation of pure & impure functions.
  *
  */
 const helixNav = async () => {
